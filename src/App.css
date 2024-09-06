@@ -1,0 +1,129 @@
+/* Ensure responsiveness for mobile devices */
+@media (max-width: 600px) {
+  .container {
+    padding: 15px; /* Adjust padding for smaller screens */
+  }
+}
+
+/* General body styles */
+body {
+  background: linear-gradient(135deg, #f0f2f5, #e2e6ea); /* Light gradient background */
+  font-family: 'Arial', sans-serif; /* Simple and clean font */
+  margin: 0;
+  padding: 0;
+}
+
+/* Container styles */
+.container {
+  margin: 30px auto; /* Center the container */
+  padding: 20px;
+  border-radius: 12px; /* Rounded corners */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  background-color: #ffffff; /* White background for contrast */
+  max-width: 1200px; /* Max width for large screens */
+}
+
+/* Card component styles */
+.card {
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Deeper shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+  overflow: hidden; /* Prevent overflow */
+  background-color: #f9f9f9; /* Light background color */
+}
+
+.card:hover {
+  transform: translateY(-8px); /* Lift effect on hover */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+/* Modal header styles */
+.modal-header {
+  background: linear-gradient(135deg, #ff5722, #ff9800); /* Gradient background */
+  color: white;
+  padding: 20px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2); /* More pronounced border */
+  border-radius: 12px 12px 0 0; /* Rounded corners on top */
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: flex-end; /* Align items to the end */
+  padding: 20px;
+  border-top: 2px solid rgba(0, 0, 0, 0.2); /* More pronounced border */
+  border-radius: 0 0 12px 12px; /* Rounded corners on bottom */
+}
+
+/* Primary button styles */
+.btn-primary {
+  background: linear-gradient(135deg, #4caf50, #388e3c); /* Gradient background */
+  border: none; /* Remove default border */
+  color: white;
+  padding: 14px 28px;
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px;
+  transition: background 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #388e3c, #2c6d2f); /* Darker gradient on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.btn-secondary {
+  background: linear-gradient(135deg, #007bff, #0056b3); /* Gradient background */
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  border-radius: 10px;
+  font-size: 18px;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.btn-secondary:hover {
+  background: linear-gradient(135deg, #0056b3, #003d80); /* Darker gradient on hover */
+  transform: scale(1.05);
+}
+
+/* Success background color */
+.bg-success {
+  background-color: #28a745 !important;
+  color: white; /* Ensure text is readable */
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.bg-warning {
+  background-color: #ffc107 !important;
+  color: black; /* Ensure text is readable */
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.bg-danger {
+  background-color: #dc3545 !important;
+  color: white; /* Ensure text is readable */
+  padding: 10px;
+  border-radius: 8px;
+}
+
+/* Additional Styling */
+h1, h2, h3, h4, h5, h6 {
+  color: #333; /* Darker color for headings */
+  margin-bottom: 20px; /* Space below headings */
+}
+
+p {
+  line-height: 1.6; /* Increase line height for readability */
+  margin-bottom: 20px; /* Space below paragraphs */
+}
+
+a {
+  color: #007bff; /* Primary link color */
+  text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
